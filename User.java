@@ -1,18 +1,17 @@
 public abstract class User {
     private String username;
     private String password;
-    
-    public User(String us, String pw){
+
+    public User(String username, String password) {
         this.username = username;
         this.password = password;
-        
     }
-    
-     
-    public String getUsername(){
+
+    public String getUsername() {
         return username;
     }
-    public String getPassword(){
+
+    public String getPassword() {
         return password;
     }
     public abstract String getUserType();
